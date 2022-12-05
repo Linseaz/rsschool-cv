@@ -19,3 +19,12 @@ function multiply(a, b){
     return a * b
 }
 </code></pre>
+## Education
+<b>Ukrainian state university of railway transport</b>  
+Wagon Economy - bachelor  
+<b>East Ukrainian Volodymyr Dahl National University</b>  
+Computer Sciences - master's degree  
+## Languages
+* English (B1 without speaking)
+* Ukrainian (Native)
+* Russian (Native)
