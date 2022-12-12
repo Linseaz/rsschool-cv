@@ -11,12 +11,12 @@
     <header>
       <nav class="container">
         <ul class="navbar">
-          <li class="list-item"><a href="#M" class="list-item-link">About Me</a></li>
-          <li class="list-item"><a href="#A" class="list-item-link">My Contacts</a></li>
-          <li class="list-item"><a href="#S" class="list-item-link">Skills</a></li>
-          <li class="list-item"><a href="#C" class="list-item-link">Code Example</a></li>
-          <li class="list-item"><a href="#M" class="list-item-link">My projects</a></li>
-          <li class="list-item"><a href="#E" class="list-item-link">Education</a></li>
+          <li class="list-item"><a href="#about" class="list-item-link">About Me</a></li>
+          <li class="list-item"><a href="#contacts" class="list-item-link">My Contacts</a></li>
+          <li class="list-item"><a href="#skills" class="list-item-link">Skills</a></li>
+          <li class="list-item"><a href="#code" class="list-item-link">Code Example</a></li>
+          <li class="list-item"><a href="#projects" class="list-item-link">My projects</a></li>
+          <li class="list-item"><a href="#education" class="list-item-link">Education</a></li>
         </ul>
       </nav>
     </header>
@@ -24,7 +24,7 @@
     <main class="container">
       <h2 class="name">ILLIA MIELNIKOV</h2>
          <div class="wrapper">
-            <section class="about">
+            <section id="about" class="about">
               <div class="circle"></div>
                 <img src="image/main.jpg" alt="my-photo" class="photo">
               <div class="triangle-first"></div>
@@ -34,7 +34,7 @@
                 Odio voluptatum ut quae impedit aspernatur. Maiores eos aliquid ea officiis fugit dolorem. Reprehenderit optio et voluptatibus culpa ea accusamus in, adipisci perferendis sunt voluptates consequuntur ullam consequatur corrupti necessitatibus!
                 Beatae sunt molestiae maxime, nobis quas ex consectetur corporis consequatur delectus commodi asperiores voluptatibus enim fuga eaque laboriosam odio. Officiis, ducimus distinctio. Corrupti natus delectus minima incidunt laboriosam repellendus accusamus?</p>
 
-                <section class="skills">
+                <section id="skills" class="skills">
                    <h2 class="title">WORKING SKILLS</h2>
                     <ul class="unordered-list">
                       <li class="list-item-skill"><span class="circle-skills">&#11044;</span></>HTML5</li>
@@ -51,7 +51,7 @@
                       <li class="list-item-skill"><span class="circle-skills">&#11044;</span>Russian (Native)</li>
                     </ul>   
 
-                     <h2 class="title">CODE EXAMPLE</h2>
+                     <h2 id="code" class="title">CODE EXAMPLE</h2>
                       <pre class="code"><code>function multiply(a, b){
 return a * b;
 }                      
@@ -61,7 +61,7 @@ return a * b;
                 </section>
 
             </section>
-            <section class="contacts">
+            <section id="contacts" class="contacts">
               <div class="wrapper-specialty">
                <h1 class="specialty">FRONT-END DEVELOPER</h1>
                <h2 class="contacts-text">CONTACTS</h2>
@@ -84,7 +84,7 @@ return a * b;
                   <a href="https://github.com/Linseaz" class="contact-link">GitHub</a>
                 </>
               </ul>
-                    <section class="education">
+                    <section id="education" class="education">
                       <h2 class="title">EDUCATION</h2>
                       <h3 class="institution">Ukrainian State University of Railway Transport</h3>
                       <p class="education-description">bachelor in Mechanical-Engineering</p>
@@ -92,7 +92,7 @@ return a * b;
                       <p class="education-description">master's degree in Computer Sciences</p>
                     </section>
 
-                    <section class="projects">
+                    <section id="projects" class="projects">
                       <h2 class="title">PROJECTS</h2>
                       <div class="date-projects">December 2022 (Personal project)</div>
                       <div class="project-name-wrapper">
@@ -122,7 +122,18 @@ return a * b;
                       <a href="https://linseaz.github.io/rsschool-cv/" class="view">Browse the Project</a>
                     </section>
             </section>
-         </div>
-    </main>
+         
+      </main>
+    </div>
+    <footer class="container footer">
+      <div class="wrapper-footer">
+                  <div class="contacts-item">
+                  <img src="image/periscope.svg" alt="github" class="logo-contact">
+                  <a href="https://github.com/Linseaz" class="contact-link">GitHub</a>
+                  </div>
+                  <div class="year">2022</div>
+                  <div class="rsschool-icon"><a href="https://rs.school/js/" class="rsschool-link"><img src="image/rs_school_js.svg" alt="rsschool" class="rsschool"></a></div>
+      </div>
+    </footer>
   </body>
 </html>

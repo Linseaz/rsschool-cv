@@ -115,7 +115,8 @@
 
 .wrapper {
   display: flex;
-  justify-content: space-around;  
+  justify-content: space-around;
+  margin-bottom: 300px;
 }
 .contacts {
   width: 515px;
@@ -310,4 +311,35 @@
   border-top: 18px solid transparent;
   border-bottom: 18px solid transparent;
   border-left:0;
+}
+
+.footer {
+  width: 1170px;
+  min-height: 100px;
+  background-color: #F3F3F3;
+}
+
+.wrapper-footer {
+  padding: 20px 60px 20px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper-footer>.contacts-item {
+  padding: 0;
+}
+.wrapper-footer>.contacts-item>.contact-link {
+  border: none;
+  font-size: 18px;
+}
+
+.rsschool {
+  width: 80px;
+  height: 30px;
+}
+
+.year {
+  font-weight: 400;
+  font-size: 18px;
 }
