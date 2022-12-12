@@ -2,6 +2,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -50,7 +52,7 @@
 .about {
   background-color: #ffbfbf;
   width: 528px;
-  max-height: 820px;
+  max-height: 920px;
   position: relative;
   padding-top: 80px;
 }
@@ -163,7 +165,7 @@
 .contacts-item {
   display: flex;
   align-items: center;
-  width: 200px;
+  width: 210px;
   padding-bottom: 10px;
 }
 .logo-contact {
@@ -171,7 +173,7 @@
 }
 
 .contact-link {
-  width: 170px;
+  width: 185px;
   text-decoration: none;
   color: #000;
   border-bottom: 2px solid #C4C4C4;
@@ -254,7 +256,7 @@
 
 .skills {
   width: 528px;
-  margin: 50px 0 40px 0;
+  margin: 110px 0 40px 0;
   min-height: 495px;
   background-color: #F3F3F3;
   position: relative;
