@@ -40,7 +40,6 @@
 .name {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: 'Bellota Text';
   font-weight: 400;
   font-size: 58px;
   text-align: center;
@@ -51,9 +50,9 @@
 .about {
   background-color: #ffbfbf;
   width: 528px;
+  max-height: 820px;
   position: relative;
   padding-top: 80px;
-  display: inline-block;
 }
 
 .circle {
@@ -75,7 +74,7 @@
   border-radius: 50%;
 }
 
-.triangle {
+.triangle-first {
   position: absolute;
   right: 0px;
   top: 362px;
@@ -252,4 +251,63 @@
   margin-bottom: 30px;
 }
 
+.skills {
+  width: 528px;
+  margin: 50px 0 40px 0;
+  min-height: 495px;
+  background-color: #F3F3F3;
+  position: relative;
+}
 
+.skills>.title {
+  text-align: right;
+  padding-top: 30px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+.list-item-skill {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: left;
+  padding: 8px 0px 0px 40px;
+}
+
+.list-item-skill:first-child {
+  padding-top: 20px;
+}
+
+.circle-skills {
+  color: #ffbfbf;
+  padding-right: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.code {
+  padding: 20px 0 20px 60px;
+  font-size: 18px;
+}
+
+.triangle-second {
+  position: absolute;
+  right: 0px;
+  top: 70px;
+  border-right: 38px solid #fff;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-left:0;
+}
+
+.triangle-third {
+  position: absolute;
+  right: 0px;
+  top: 450px;
+  border-right: 38px solid #fff;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-left:0;
+}
