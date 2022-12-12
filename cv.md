@@ -21,7 +21,7 @@ function multiply(a, b){
 </code></pre>
 ## Education
 <b>Ukrainian state university of railway transport</b>  
-Wagon Economy - bachelor  
+mechanical-engineering - bachelor  
 <b>East Ukrainian Volodymyr Dahl National University</b>  
 Computer Sciences - master's degree  
 ## Languages
