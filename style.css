@@ -7,7 +7,7 @@
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1120px;
   margin: 0 auto;  
 }
 
@@ -117,8 +117,9 @@
 
 .wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 200px;
+  flex-wrap: wrap;
 }
 .contacts {
   width: 515px;
@@ -317,7 +318,6 @@
 }
 
 .footer {
-  width: 1170px;
   min-height: 100px;
   background-color: #F3F3F3;
 }
@@ -331,10 +331,12 @@
 }
 .wrapper-footer>.contacts-item {
   padding: 0;
+  width: 90px;
 }
 .wrapper-footer>.contacts-item>.contact-link {
   border: none;
   font-size: 18px;
+  width: 60px;
 }
 
 .rsschool {
